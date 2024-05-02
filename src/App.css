@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0c0c0c;
+  height: 39rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.container {
+  /* background-color: #f5efe6; */
+  background-color: white;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin: 10% auto;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+}
+
+.converter {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  gap: 1rem;
+}
+
+input,
+select {
+  width: 15rem;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 0.2rem;
+}
+.amount,
+.from,
+.to {
+  width: fit-content;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.output {
+  font-size: 1.5rem;
+  text-align: start;
+  width: 71%;
+  margin: auto;
+}
